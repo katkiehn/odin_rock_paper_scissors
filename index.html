@@ -8,13 +8,30 @@
                    initial-scale=1.0"
         />
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Permanent+Marker&family=Poppins&display=swap"
+            rel="stylesheet"
+        />
         <title>Rock Paper Scissor</title>
     </head>
     <body>
         <section class="game">
             <!--Title -->
-            <div class="title">Rock Paper Scissor</div>
+            <div class="title">
+                <h1>MAN VS COMPUTER</h1>
+                <br />
+                <p>DO YOU HAVE WHAT IT TAKES TO SAVE MANKIND?</p>
+                <p>CHOOSE YOUR WEAPON!!</p>
+            </div>
 
+            <!--Options available to player to play game -->
+            <div class="options">
+                <button class="rock">Rock</button>
+                <button class="paper">Paper</button>
+                <button class="scissor">Scissors</button>
+            </div>
             <!--Display Score of player and computer -->
             <div class="score">
                 <div class="playerScore">
@@ -26,18 +43,8 @@
                     <p class="c-count count">0</p>
                 </div>
             </div>
-
-            <div class="move">Choose your move</div>
-
             <!--Number of moves left before game ends -->
             <div class="movesleft">Moves Left: 10</div>
-
-            <!--Options available to player to play game -->
-            <div class="options">
-                <button class="rock">Rock</button>
-                <button class="paper">Paper</button>
-                <button class="scissor">Scissors</button>
-            </div>
 
             <!--Final result of game -->
             <div class="result"></div>

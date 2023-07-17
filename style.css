@@ -4,9 +4,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: black;
 
-    color: #08a1e7;
+    font-family: "Permanent Marker", cursive;
+
+    color: #fff;
+}
+
+section {
+    display: flex;
 }
 /* To center everything in game */
 .game {
@@ -22,9 +28,10 @@
 .title {
     position: absolute;
     top: 0;
-    font-size: 4rem;
     z-index: 2;
     padding: 20px;
+    text-align: center;
+    font-size: 2rem;
 }
 
 /* Score Board */
@@ -32,9 +39,10 @@
     display: flex;
     width: 30vw;
     justify-content: space-evenly;
-    position: absolute;
-    top: 70px;
+    /*position: absolute;
+    top: 70px;*/
     z-index: 1;
+    padding: 30px;
 }
 
 /* Score */
@@ -42,16 +50,17 @@
 .c-count {
     text-align: center;
     font-size: 2rem;
-    margin-top: 3rem;
-    color: rgb(185, 14, 163);
+    /*margin-top: 3rem;*/
+    color: #fff;
 }
 
 /* displaying three buttons in one line */
 .options {
     display: flex;
-    width: 50vw;
+    width: 70vw;
     justify-content: space-evenly;
     margin-top: 2rem;
+    padding: 20px;
 }
 
 /* Styling on all three buttons */
@@ -59,18 +68,20 @@
 .paper,
 .scissor {
     padding: 0.8rem;
-    width: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
-    background: rgb(185, 14, 163);
+    background: #fff;
     outline: none;
-    border-color: rgb(185, 14, 163);
+    border-color: #fff;
     border: none;
     cursor: pointer;
-    color: #fff;
+    color: black;
+    font-size: 2rem;
 }
 
 .move {
-    font-size: 2rem;
+    /*font-size: 2rem;*/
     font-weight: bold;
 }
 
@@ -79,7 +90,7 @@
     display: none;
     margin-top: 2rem;
     padding: 1rem;
-    background: rgb(185, 14, 163);
+    background: #fff;
     outline: none;
     border: none;
     border-radius: 10px;
